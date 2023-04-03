@@ -31,7 +31,7 @@ if (shoes + toys + batteries + pens + shirts >= 1000 && ((location === 'RSA') ||
 	else if (location === 'RSA' && customers == 1){
 		    shipping = 0;
 		}
-		else if (customers > 1) { console.log(FREE_WARNING) }
+		else if (shipping = 0 && customers !== 1) { console.log(FREE_WARNING) }
 }
 
 
